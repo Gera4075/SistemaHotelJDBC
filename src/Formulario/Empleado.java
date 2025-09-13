@@ -21,9 +21,9 @@ import java.util.logging.Logger;
 public class Empleado extends javax.swing.JFrame {
     CreateConection  conexionPostgres = new CreateConection();
     Connection con;
-    /**
-     * Creates new form Empleado
-     */
+//hola mundo
+//que tal como estas 
+    
     public Empleado() throws SQLException {
         initComponents();
           con= conexionPostgres.getConection();
